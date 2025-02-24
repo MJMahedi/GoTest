@@ -10,13 +10,13 @@ func briefly() {
 	var si int
 
 	fmt.Print("Enter principal: ")
-	fmt.Scanf("%d", &p)
+	fmt.Scanln(&p)
 
 	fmt.Print("Enter rate: ")
-	fmt.Scanf("%d", &r)
+	fmt.Scanln(&r)
 
 	fmt.Print("Enter time: ")
-	fmt.Scanf("%d", &t)
+	fmt.Scanln(&t)
 
 	si = (p * r * t) / 100
 
