@@ -9,6 +9,7 @@ func main() {
 	// // fmt.Println("Again swapping")
 	// swapagain()
 	// // readAndPrint()
-	briefly()
+	// briefly()
+	basicType()
 
 }
